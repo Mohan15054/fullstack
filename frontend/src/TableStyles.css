@@ -1,0 +1,108 @@
+.container {
+    margin: 20px;
+  }
+  
+  .custom-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-table th {
+    background-color: #110432;
+    font-weight: bold;
+    border-top: none;
+    border-style: outset;
+    border-bottom: 1px solid #05ff33;
+  }
+
+  .custom-table td {
+    padding: 12px;
+    text-align: center;
+    border-style: outset;
+    border: 1px solid #000000;
+  }
+  
+  .custom-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .custom-table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+
+  .btn-success {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-success:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-secondary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  .simple-header {
+    padding: 20px;
+    background-color: #36c;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 2px solid #950505;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  .simple-header:hover {
+    border-bottom: 2px solid #b30057;
+
+  }
+
+  .editing-input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .editing-input:focus {
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  }
