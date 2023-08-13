@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './TableStyles.css';
 
-const API_HOST = "http://10.87.122.197:3000";
+const API_HOST = "http://host:3000";
 const INVENTORY_API_URL = `${API_HOST}/inventory`;
 
 function App() {
